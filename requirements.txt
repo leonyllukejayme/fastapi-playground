@@ -1,0 +1,6 @@
+fastapi[standard]
+psycopg2-binary
+pwdlib
+SQLAlchemy
+pydantic-settings
+pyjwt
