@@ -46,4 +46,4 @@ def verify_access_token(token: str, credentials_exception, db: Session = Depends
     user = db.query(models.User).filter(models.User.email == email).first()
     if user is None:
         raise credentials_exception  # Raise exception if user is not found
-    return user  # Return the user object if found /
+    return user  # Return the user object if found 
